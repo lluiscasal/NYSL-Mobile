@@ -1,0 +1,32 @@
+var nysldata = [{
+    
+    "nombre": "San Jose Earthquakes"
+    , "img": "quakes.png"
+    , "url":"https://www.sjearthquakes.com/"
+    , "año": "1974"
+    }, {
+    "nombre": "Tennessee Soccer Club"
+    , "img": "tennessee.png"
+    , "url": "http://www.tennesseesoccerclub.org/" 
+     , "año": "1978"
+    }, {
+    "nombre": "Rock Run Soccer Club"
+    , "img": "rockrun.jpg"
+    , "url": "http://www.rockrun.org/"
+    , "año": "1983"
+    }, {
+    "nombre": "Chicago Mustangs"
+    , "img": "mustangs.png"
+    , "url": "http://www.chicagomustangspro.com/"
+    , "año": "2012"
+    }, {
+    "nombre": "Discoveries Soccer Club"
+    , "img": "discoveries.png"
+    , "url": "http://discoveriessoccerclub.org/"
+    , "año": "1999"
+    }, {
+    "nombre": "Evolution Soccer Club"
+    , "img": "evolution.png"
+    , "url":"http://www.evolutionsoccer.us/"    
+    , "año": "2014"
+    }]

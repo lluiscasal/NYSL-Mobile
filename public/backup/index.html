@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<title>NYSL</title>
+
+<head>
+    <title>NYSL App</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" sizes="394 × 393" href="media/nysl_logo.png">
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/nyslmobstyle.css"> </head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="nav navbar-nav">
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="schedulenyslmob.html">Schedule</a></li>
+                        <li><a href="locationsnyslmob.html">Locations</a></li>
+                        <li><a href="teamsnyslmob.html">Teams</a></li>
+                        <li><a href="infonyslmob.html">Information</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="marca">
+            <h1>NYSL</h1></div>
+        <div class="logo"><a href="index.html"><img src="media/nysl_logo.png"></a></div>
+    </header>
+    <section>
+        <div class="currentpage">
+            <h3>WELCOME</h3></div>
+        <div class="flexboxmain">
+            <div class="scheduleicon">
+                <a href="schedulenyslmob.html">
+                    <div class="scheduleiconimg"> <img src="media/football-icon.png"> </div>
+                    <h4>SCHEDULE</h4> </a>
+            </div>
+            <div class="locationsicon">
+                <a href="locationsnyslmob.html">
+                    <div class="locationsiconimg"> <img src="media/location-icon.png"> </div>
+                    <h4>LOCATIONS</h4> </a>
+            </div>
+            <div class="teamsicon">
+                <a href="teamsnyslmob.html">
+                    <div class="teamsiconimg"> <img src="media/teams-icon.png"> </div>
+                    <h4>TEAMS</h4> </a>
+            </div>
+            <div class="infoicon">
+                <a href="infonyslmob.html">
+                    <div class="infoiconimg"> <img src="media/info-icon2.png"> </div>
+                    <h4>INFORMATION</h4> </a>
+            </div>
+        </div>
+        <div class="contactpair">
+            <a href="mailto:lluis.casajuana.gmail.com">
+                <div class="mail"></div>
+            </a>
+            <a href="http://www.facebook.com">
+                <div class="facebook"></div>
+            </a>
+        </div>
+    </section>
+    <footer>
+        <h4>Northside Youth Soccer League</h4> </footer>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="application/javascript" src="scripts/nyslmob.js"></script>
+    
+<script src="https://www.gstatic.com/firebasejs/3.7.5/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyBZosOCBbxEfoJkP7jWpVyhwBuDYSKQgTA",
+    authDomain: "nysl-1bc55.firebaseapp.com",
+    databaseURL: "https://nysl-1bc55.firebaseio.com",
+    projectId: "nysl-1bc55",
+    storageBucket: "nysl-1bc55.appspot.com",
+    messagingSenderId: "73556542465"
+  };
+  firebase.initializeApp(config);
+</script>
+</body>
+
+</html>
